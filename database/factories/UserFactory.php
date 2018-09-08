@@ -25,5 +25,6 @@ $factory->define(App\Models\User::class, function (Faker $faker) {
         'created_at' => $data_time,
         'updated_at' => $data_time,
         'is_admin' => false,
+        'activated' => false,
     ];
 });
