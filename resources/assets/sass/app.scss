@@ -5,6 +5,7 @@
 
 $navbar-color: #3c3e42;
 
+
 /* universal */
 
 body {
@@ -22,6 +23,7 @@ textarea {
 .jumbotron {
   text-align: center;
 }
+
 
 /* typography */
 
@@ -50,6 +52,7 @@ p {
   line-height: 1.7em;
 }
 
+
 /* header */
 
 .navbar-inverse {
@@ -76,6 +79,7 @@ p {
     background-color: transparent;
   }
 }
+
 
 /* footer */
 
@@ -118,6 +122,7 @@ footer {
   }
 }
 
+
 /* sidebar */
 
 aside {
@@ -159,6 +164,7 @@ section.user_info {
   border-radius: 50%;
 }
 
+
 /* forms */
 
 input, textarea, select, .uneditable-input {
@@ -172,4 +178,36 @@ input {
 
 .panel {
   margin-top: 50px;
+}
+
+
+/* Users edit */
+
+.gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+  .gravatar {
+    float: none;
+    max-width: 100px;
+  }
+}
+
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+.delete-btn {
+  float: right;
+  position: relative;
+  right: 0;
 }
